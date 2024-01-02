@@ -1,0 +1,470 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,800;1,300;1,600;1,700;1,900&family=Roboto:wght@500&family=Source+Serif+4:opsz@8..60&display=swap");
+
+:root {
+  --green: rgb(20, 219, 20);
+  --white: #f5f6fa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: " Montserrat", sans-serif;
+}
+
+.nav-item a {
+  color: #222;
+  text-transform: uppercase;
+  margin-right: 15px;
+  font-weight: 600;
+  transition: all 0.4s;
+}
+
+.nav-item a:hover {
+  color: var(--green);
+}
+
+.navbar-brand {
+  width: 100px;
+  height: 50px;
+}
+
+.form-control {
+  border: 2px solid var(--green) !important;
+  border-radius: 20px 0px 0px 20px !important;
+  border-right: none !important;
+}
+
+.form-control:focus {
+  background: none;
+  box-shadow: none !important;
+  height: 45px;
+  outline: none;
+  border: 2px solid var(--green) !important;
+  border-right: none !important;
+  background-color: transparent;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.btn1 {
+  height: 45px;
+  outline: none;
+  border: none;
+  background-color: var(--green);
+  color: #fff;
+  border-radius: 0px 20px 20px 0px;
+  transition: all 0.4s;
+}
+
+.btn1:hover {
+  background-color: rgb(4, 158, 4);
+}
+
+.bi-bag-heart-fill {
+  font-size: 31px;
+  color: rgb(201, 76, 153);
+  cursor: pointer;
+  padding-top: 7px;
+  transition: all 0.4s;
+}
+
+.bi-bag-heart-fill:hover {
+  color: var(--green);
+}
+
+.navbar-toggler {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+/* main */
+.main {
+  background: url(./img/m1.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.main h1 {
+  font-size: 5rem;
+}
+
+.main p:nth-child(1) {
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.main p:nth-child(2) {
+  font-size: 18px;
+  color: #666;
+}
+
+.mbtn1,
+.mbtn2 {
+  height: 50px;
+  width: 25%;
+  outline: none;
+  border: none;
+  color: var(--white);
+  background: var(--green);
+  border-radius: 50px;
+  text-transform: capitalize;
+  transition: all 0.4s;
+}
+
+.mbtn1:hover {
+  background-color: rgb(9, 116, 13);
+}
+
+.mbtn2 {
+  background-color: transparent;
+  color: var(--green);
+  border: 1px solid var(--green);
+}
+
+.mbtn2:hover {
+  background-color: var(--green);
+  color: var(--white);
+}
+
+.line {
+  height: 6px;
+  width: 30%;
+  background: var(--green);
+  display: inline-block;
+  border-radius: 3px;
+}
+/* about */
+
+.about {
+  background: url(./img/abut.jpg) no-repeat;
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+}
+
+.about h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.about p:nth-child(1) {
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.about p:nth-child(2) {
+  font-size: 18px;
+  color: gray;
+}
+/* welcome */
+.welcome {
+  background: var(--green);
+}
+
+.line2 {
+  height: 6px;
+  width: 30%;
+  background-color: white;
+  display: inline-block;
+}
+
+.welcome h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.welcome .card {
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.welcome i {
+  font-size: 45px;
+  color: var(--green);
+}
+
+.welcome h2 {
+  font-weight: lighter;
+  padding: 10px;
+}
+/* products*/
+.product h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.product p:nth-child(1) {
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.product p:nth-child(2) {
+  font-size: 18px;
+  color: gray;
+}
+
+.product .star {
+  text-align: end;
+  color: gold;
+}
+.product .card {
+  border: none;
+  cursor: pointer;
+  border-radius: 0;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.product .card-body {
+  border: 1px dashed #999;
+}
+
+.head1 {
+  font-weight: 400;
+  margin: 0;
+}
+
+.per1 {
+  color: #666;
+  font-weight: 500;
+}
+
+.btnc {
+  height: 50px;
+  width: 50%;
+  outline: none;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  background: var(--green);
+  border-radius: 50px;
+  margin: 0 auto;
+  display: block;
+  transition: all 0.4s;
+}
+
+.btnc:hover {
+  outline: none;
+  border: 1px solid var(--green);
+  color: var(--green);
+  background: transparent;
+  border-radius: 50px;
+}
+
+/* discount  */
+
+.discount {
+  background: var(--green);
+  color: var(--white);
+}
+
+.dbtn {
+  height: 50px;
+  width: 75%;
+  outline: none;
+  border: none;
+  color: #222;
+  background-color: white;
+  text-transform: capitalize;
+  border-radius: 50px;
+  margin: 0 auto;
+  display: block;
+  font-weight: lighter;
+  transition: all 0.4s;
+}
+
+.dbtn:hover {
+  background-color: var(--green);
+  border: 1px solid var(--white);
+  color: var(--white);
+}
+
+/* store  */
+.store h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.store p:nth-child(1) {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.store p:nth-child(2) {
+  font-size: 18px;
+  color: gray;
+}
+
+.store i {
+  font-size: 45px;
+}
+
+.store .card {
+  border-radius: 0;
+  border: none;
+  transition: all 0.3s;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.store .card:hover {
+  background-color: var(--green);
+  color: var(--white);
+}
+
+.store .card:hover .per1 {
+  color: var(--white);
+}
+
+/*seller */
+
+.seller h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.seller i {
+  color: gold;
+}
+
+.seller .card {
+  border-radius: 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+/* contact */
+.contact {
+  background: url(./img/cont.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.contact h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--white);
+}
+
+.contact p {
+  color: var(--white);
+}
+
+.circle {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 18px;
+}
+
+.contact input {
+  height: 40px;
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: white;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.contact textarea {
+  height: 100px;
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: white;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.cbtn {
+  height: 50px;
+  width: 65%;
+  outline: none;
+  border: none;
+  color: black;
+  background: white;
+  border-radius: 50px;
+  font-weight: lighter;
+  transition: all 0.3s;
+}
+
+.cbtn:hover {
+  background: rgb(216, 208, 208);
+}
+
+/* footer */
+.footer {
+  background: #222222;
+}
+
+.footer p {
+  color: rgb(20, 219, 20);
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 15px;
+}
+
+.footer p span {
+  color: #fff;
+  font-size: 16px;
+}
+
+.s1 {
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  padding-top: 9px;
+  margin-left: 10px;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.s1:hover {
+  background-color: var(--green);
+  border: none;
+}
+
+::-webkit-scrollbar {
+  width: 0.7rem;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--white);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--green);
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+}
