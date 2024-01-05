@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TaxiPark</title>
+  <link rel="icon" href="./img/vicky.png">
+
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./responsive.css">
+
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- getbootstrap-CSS-link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- owl-carousel-cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- theme.default.min.css -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+  <!--header section start-->
+  <section class="header">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand ps-5"><img src="./img/logo-inner.png" class="img-fluid" alt="" /></a>
+
+        <button class="navbar-toggler me-lg-auto me-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon text-primary"></span> -->
+          <i class="fa-solid fa-bars text-light fs-1"></i>
+        </button>
+
+        <div class="collapse navbar-collapse pe-5" id="navbar">
+          <ul class="navbar-nav ms-auto">
+            <div class="dropdown">
+              <a class="dropdown-toggle nav-link active " aria-current="page" style="color:#f7b910;" href="#"
+                data-bs-target="#navbarNav" data-bs-toggle="dropdown">
+                HOME
+              </a>
+              <ul class="dropdown-menu mt-4 ">
+                <li><a class="dropdown-item" href="#">homepage1</a></li>
+                <li><a class="dropdown-item" href="#">homepage2</a></li>
+                <li><a class="dropdown-item" href="#">homepage3</a></li>
+              </ul>
+            </div>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">GET TAXI</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SERVICES</a>
+            </li>
+
+            <div class="dropdown">
+              <a class="dropdown-toggle nav-link" href="#" role="button" id="dropdownMenuLink"
+                data-bs-target="#navbarNav" data-bs-toggle="dropdown">
+                OUR BLOG
+              </a>
+              <ul class="dropdown-menu mt-4">
+                <li><a class="dropdown-item" href="#">blog one column</a></li>
+                <li><a class="dropdown-item" href="#">blog tow column</a></li>
+                <li><a class="dropdown-item" href="#">blog three column</a></li>
+              </ul>
+            </div>
+            <div class="dropdown">
+              <a class="dropdown-toggle nav-link" href="#" role="button" id="dropdownMenuLink"
+                data-bs-target="#navbarNav" data-bs-toggle="dropdown">
+                GALLERY
+              </a>
+              <ul class="dropdown-menu mt-4">
+                <li><a class="dropdown-item" href="#">gallery 2-columns</a></li>
+                <li><a class="dropdown-item" href="#">gallery 3-columns</a></li>
+                <li><a class="dropdown-item" href="#">gallery 4-columns</a></li>
+              </ul>
+            </div>
+            <div class="dropdown">
+              <a class="dropdown-toggle nav-link" href="#" role="button" id="dropdownMenuLink"
+                data-bs-target="#navbarNav" data-bs-toggle="dropdown">
+                SHOP
+              </a>
+              <ul class="dropdown-menu mt-4">
+                <li><a class="dropdown-item" href="#">shop</a></li>
+                <li><a class="dropdown-item" href="#">cart</a></li>
+                <li><a class="dropdown-item" href="#">checkout</a></li>
+                <li><a class="dropdown-item" href="#">my account</a></li>
+              </ul>
+            </div>
+            <div class="dropdown">
+              <a class="dropdown-toggle nav-link" href="#" role="button" id="dropdownMenuLink"
+                data-bs-target="#navbarNav" data-bs-toggle="dropdown">
+                CONTACTS
+              </a>
+              <ul class="dropdown-menu mt-4">
+                <li><a class="dropdown-item" href="#">contacts</a></li>
+                <li><a class="dropdown-item" href="#">contact 2</a></li>
+              </ul>
+            </div>
+
+            <div class="dropdown">
+              <a class="dropdown-toggle nav-link" href="#" role="button" id="dropdownMenuLink"
+                data-bs-target="#navbarNav" data-bs-toggle="dropdown">
+                PAGES
+              </a>
+              <ul class="dropdown-menu mt-4">
+                <li><a class="dropdown-item" href="#">typography</a></li>
+                <li><a class="dropdown-item" href="#">form elements</a></li>
+                <li><a class="dropdown-item" href="#">shortcodes</a></li>
+                <li><a class="dropdown-item" href="#">list</a></li>
+                <li><a class="dropdown-item" href="#">testimonials</a></li>
+                <li><a class="dropdown-item" href="#">team</a></li>
+              </ul>
+            </div>
+            <div class="icon">
+              <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <!--header-section-end-->
+  <!-- home-gettaxi-form-s-->
+  <section class="home" id="home">
+    <div class="container-fluid">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/homepage-3-2-bg.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/homepage-3-bg.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="gettaxi">
+      <div class="container">
+        <h2 class="title text-center mt-5">get taxi <span>online</span></h2>
+        <div class="box row">
+          <div class="box-row col">
+            <img src="./img/car-4.jpeg" alt="" class="img-fluid">
+            <span>standard</span>
+          </div>
+          <div class="box-row col">
+            <img src="./img/car-4.jpeg" alt="">
+            <span>business</span>
+          </div>
+          <div class="box-row col">
+            <img src="./img/car-2.jpeg" alt="">
+            <span class="vip">vip</span>
+          </div>
+          <div class="box-row col">
+            <img src="./img/car-3.jpeg" alt="">
+            <span>minivan</span>
+          </div>
+        </div>
+        <div class="contant">
+          <form action="#">
+            <div class="row">
+              <div class="col-md-6 mt-4 g-1 ps-2">
+                <input type="text" class="form-control" placeholder="From Address...">
+              </div>
+              <div class="col-md-6 mt-4 g-1 ps-2">
+                <input type="text" class="form-control" placeholder="To...">
+              </div>
+              <div class="col-md-6 mt-4 g-1 ps-2">
+                <input type="number" class="form-control" placeholder="Phone Number">
+              </div>
+              <div class="col-md-6 mt-4 g-1 ps-2">
+                <input type="datetime" class="form-control" placeholder="Date and Time">
+              </div>
+            </div>
+            <button type="button" class="button col-12">get taxi</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- home-gettaxi-form-e-->
+  <!-- gettaxi-row-start -->
+  <section class="gettaxi-row">
+    <div class="gettaxi-row">
+      <div class="contant">
+        <div class="box-row row">
+          <div class="box ps-5 ms-5 sm-m-auto col">
+            <i class="fa-solid fa-phone-flip"></i>
+            <p class="font">800-5-800</p>
+          </div>
+          <div class="box col">
+            <i class="fa-brands fa-skype"></i>
+            <p>GETTAXIPARK</p>
+          </div>
+          <div class="box col">
+            <i class="fa-solid fa-location-dot"></i>
+            <p>43 2-ND AVENUE, NEW YORK, 29004-7153</p>
+          </div>
+          <div class="box col">
+            <button type="button" class="button mb-4">our trriffs</button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- gettaxi-row-end-->
+  <!-- services-start -->
+  <section class="services" id="services">
+    <div class="container">
+      <h2 class="title text-center mt-3 pt-1"> <span>WELCOME</span><br>our services</h2>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="card">
+            <img src="./img/services-1.png" class="img">
+            <div class="card-body">
+              <h5 class="card-title text-center">RAPID CITY TRANSFER</h5>
+              <p class="card-text text-center">We will bring you quickly and comfortably to anywhere in your city</p>
+            </div>
+          </div>
+        </div>
+        <div class=" col-lg-3 col-md-6 col-12">
+          <div class="card">
+            <img src="./img/services-2.png" class="img">
+            <div class="card-body">
+              <h5 class="card-title text-center">BOOKING A HOTEL</h5>
+              <p class="card-text text-center">If you need a comfortable hotel, our operators will book it for you, and
+                take a taxi to the address</p>
+            </div>
+          </div>
+        </div>
+        <div class=" col-lg-3 col-md-6 col-12">
+          <div class="card">
+            <img src="./img/services-3.png " class="img">
+            <div class="card-body">
+              <h5 class="card-title text-center">AIRPORT TRANSFER</h5>
+              <p class="card-text text-center">We will bring you quickly and comfortably to anywhere in your city</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="card">
+            <img src="./img/services-4.png" class="img">
+            <div class="card-body">
+              <h5 class="card-title text-center">BAGGAGE TRANSPORT</h5>
+              <p class="card-text text-center">If you need a comfortable hotel, our operators will book it for you, and
+                take a taxi to the address</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- services-end -->
+  <!-- tariffs-start -->
+  <section class="tariffs" id="tariffs">
+    <div class="container">
+      <h2 class="title text-center mb-5 m-auto sm-m-auto"> <span>SEE OUR</span><br>TARIFFS</h2>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="card">
+            <img src="./img/tariff-1.png" class="img">
+            <div class="card-body mb-2">
+              <h5 class="card-title text-center">STANDART</h5>
+              <p class="card-text text-center">Standard sedan for a drive around the city at your service</p>
+              <h3 class="text-center">$2,7<span> /km</span></h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="card">
+            <img src="./img/tariff-2.png" class="img">
+            <div class="card-body mb-2">
+              <h5 class="card-title text-center">BUSINESS</h5>
+              <p class="card-text text-center">Standard sedan for a drive around the city at your service</p>
+              <h3 class="text-center">$2,7<span>/km</span></h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="card card-3">
+            <i class="fa-solid fa-star"></i>
+            <img src="./img/tariff-3.png" class="img">
+            <div class="card-body mb-2">
+              <h5 class="card-title text-center">VIP</h5>
+              <p class="card-text text-center">Standard sedan for a drive around the city at your service</p>
+              <h3 class="text-center">$2,7<span>/km</span></h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="card">
+            <img src="./img/tariff-4.png" class="img">
+            <div class="card-body mb-2">
+              <h5 class="card-title text-center">BUS-MINIVAN</h5>
+              <p class="card-text text-center">Standard sedan for a drive around the city at your service</p>
+              <h3 class="text-center">$2,7<span>/km</span></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- tariffs-end -->
+  <!-- benefits-start -->
+  <section class="benefits">
+    <div class="container">
+      <h2 class="title text-center pt-5"> <span>GET MORE BENEFITS</span><br>DOWNLOAD THE APP</h2>
+      <div class="row">
+        <div class="col mt-5 me-5 wrabber ms-sm-5">
+          <div class="col mt-5 me-5">
+            <div class="row gap-2">
+              <h4 class="title-1"><span>01.</span>FAST BOOKING</h4>
+              <p class="para">Nam ac ligula congue, interdum enim sit amet, fermentum nisi.</p>
+            </div>
+            <div class="row gap-2">
+              <h4 class="title-1"><span>02.</span>EASY TO USE</h4>
+              <p class="para">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class=" col">
+          <div class="box">
+            <div class="box-col"><img src="./img/mobile.png" alt=""></div>
+            <div class="box-row">
+              <img src="./img/app-google-150x50.png" alt="">
+              <img src="./img/app-apple-150x53.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class=" col mt-5 ms-5 ms-md-0 wrabber1">
+          <div class="col mt-5 ms-5">
+            <div class="row gap-2">
+              <h4 class="title-1"> GPS SEARCHING<span>03.</span></h4>
+              <p class="para">Ut elementum tincidunt erat vel ornare. Suspendisse ac felis non diam pretium..</p>
+            </div>
+            <div class="row gap-2">
+              <h4 class="title-1">BONUSES FOR RIDE<span>04.</span></h4>
+              <p class="para">Phasellus l et porta tortor dignissim at. Pellentesque gravida tortor at euismod mollis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- benefits-end -->
+  <!-- drivers-start -->
+  <section class="drivers">
+    <div class="container">
+      <h2 class="title pt-5"> <span>FOR DRIVERS</span><br>DO YOU WANT TO EARN WITH US?</h2>
+      <div class="contant">
+        <p class="para">Quisque sollicitudin feugiat risus, eu posuere ex euismod eu.Phasellus hendrerit,
+          massa efficitur dapibus pulvinar, sapien eros sodales ante, euismod aliquet nulla metus a mauris.
+        </p>
+        <div class="row col-6">
+          <div class="col">
+            <div class="box">
+              <i class="fa-solid fa-check"></i>
+              <h4>Luxury cars</h4>
+            </div>
+            <div class="box">
+              <i class="fa-solid fa-check"></i>
+              <h4>No fee</h4>
+            </div>
+            <div class="box">
+              <i class="fa-solid fa-check"></i>
+              <h4>Weekly payment</h4>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="box">
+              <i class="fa-solid fa-check"></i>
+              <h4>Fixed price</h4>
+            </div>
+            <div class="box">
+              <i class="fa-solid fa-check"></i>
+              <h4>Good application</h4>
+            </div>
+            <div class="box">
+              <i class="fa-solid fa-check"></i>
+              <h4>Stable orders</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="button">become a driver</button>
+    </div>
+  </section>
+  <!-- drivers-end -->
+
+  <div class="one"></div>
+
+  <!-- client-start -->
+  <section class="client">
+    <div class="container mb-5">
+      <h2 class="title pt-5 text-center"> <span>HAPPY CLIENT'S</span><br>TESTIMONIALS</h2>
+
+      <div class="row">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <div class="card">
+              <div class="card-body">
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque veniam temporibus
+                  labore enim
+                  officiis molestiae, obcaecati facere voluptates mollitia at assumenda ipsum iste?</p>
+                <i class="fas fa-quote-left"></i>
+                <h4>ahastasia stone</h4>
+                <img src="./img/client-1.jpg" alt="" class="card-img-top" height="50px">
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <div class="card-body">
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque veniam temporibus
+                  labore enim
+                  officiis molestiae, obcaecati facere voluptates mollitia at assumenda ipsum iste?</p>
+                <i class="fas fa-quote-left"></i>
+                <h4>steven rashford</h4>
+                <img src="./img/client-4.jpg" alt="" class="card-img-top" height="50px">
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <div class="card-body">
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque veniam temporibus
+                  labore enim
+                  officiis molestiae, obcaecati facere voluptates mollitia at assumenda ipsum iste?</p>
+                <i class="fas fa-quote-left"></i>
+                <h4>pathckjawes</h4>
+                <img src="./img/client-5.jpg" alt="" class="card-img-top" height="50px">
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <div class="card-body">
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque veniam temporibus
+                  labore enim
+                  officiis molestiae, obcaecati facere voluptates mollitia at assumenda ipsum iste?</p>
+                <i class="fas fa-quote-left"></i>
+                <h4>ahastasia stone</h4>
+                <img src="./img/client-1.jpg" alt="" class="card-img-top" height="50px">
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <div class="card-body">
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque veniam temporibus
+                  labore enim
+                  officiis molestiae, obcaecati facere voluptates mollitia at assumenda ipsum iste?</p>
+                <i class="fas fa-quote-left"></i>
+                <h4>steven rashford</h4>
+                <img src="./img/client-4.jpg" alt="" class="card-img-top" height="50px">
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <div class="card-body">
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque veniam temporibus
+                  labore enim
+                  officiis molestiae, obcaecati facere voluptates mollitia at assumenda ipsum iste?</p>
+                <i class="fas fa-quote-left"></i>
+                <h4>pathckjawes</h4>
+                <img src="./img/client-5.jpg" alt="" class="card-img-top" height="50px">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class=" col g-0 ">
+          <img src="./img/banner-1-4.png" alt="">
+        </div>
+        <div class=" col g-0">
+          <img src="./img/banner-2-2.png" alt="">
+        </div>
+      </div>
+
+
+
+    </div>
+  </section>
+  <!-- client-end -->
+  <!-- PARTNERS-AND-CLIENTS-start -->
+  <section class="partners" id="partners">
+    <div class="container row">
+      <div class="contant col">
+        <h2 class="title"><span>OUR PARTNERS</span><br>AND CLIENTS</h2>
+      </div>
+      <div class="box-row col">
+        <div class="box"><img src="./img/partner-1.png" alt=""></div>
+        <div class="box"><img src="./img/partner-2.png" alt=""></div>
+        <div class="box"><img src="./img/partner-3.png" alt=""></div>
+        <div class="box"><img src="./img/partner-5.png" alt=""></div>
+      </div>
+    </div>
+  </section>
+  <!-- PARTNERS-AND-CLIENTS-end -->
+  <!-- footer-start -->
+  <section class="footer">
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="wrapper">
+              <h3>ABOUT US</h3>
+              <p>
+                Nullam orci dui, dictum et magna sollicitudin, tempor blandit erat. Maecenas suscipit tellus sit
+                amet augue placerat fringilla a id lacus. Fusce tincidunt in leo lacinia condimentum.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="wrapper">
+              <h3>EXPLORE</h3>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="box">
+                  <div class="box-row">
+                    <div class="contant">
+                      <i class="fa-solid fa-angle-right"></i>
+                      <span>gallery</span>
+                    </div>
+                    <div class="contant">
+                      <i class="fa-solid fa-angle-right"></i>
+                      <span>testimonials</span>
+                    </div>
+                    <div class="contant">
+                      <i class="fa-solid fa-angle-right"></i>
+                      <span>services</span>
+                    </div>
+                    <div class="contant">
+                      <i class="fa-solid fa-angle-right"></i>
+                      <span>shoutcode</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="box">
+                  <div class="box-row">
+                    <div class="contant">
+                      <i class="fa-solid fa-angle-right"></i>
+                      <span>contant</span>
+                    </div>
+                    <div class="contant">
+                      <i class="fa-solid fa-angle-right"></i>
+                      <span>blog</span>
+                    </div>
+                    <div class="contant">
+                      <i class="fa-solid fa-angle-right"></i>
+                      <span>get taxi</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="wrapper">
+              <h3>CONTACT US</h3>
+              <p><span>Address: </span>43 2-nd Avenue, New York, NY 29004-7153</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+  <div class="footer-black">
+    <div class="container">
+      <img src="./img/car-big-side.png" alt="" style="width: 50px; height: 50px;">
+      <p class="text-start">Like-themes <span>2017 © All Rights Reserved</span>Terms of use</p>
+    </div>
+  </div>
+  <!-- footer-end -->
+
+</body>
+
+<!-- getbootstrap-JS-link -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<!-- jquery.min.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+  integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- owl-carousel-cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+  integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="./app.js"></script>
+
+</html>

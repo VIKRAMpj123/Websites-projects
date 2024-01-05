@@ -1,0 +1,185 @@
+@media (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+  .header .container-fluid .navbar-nav{
+    margin-top:14.1px;
+    width: 100%;
+    background:rgba(0, 0, 0, 0.5);
+  }
+  .header .container-fluid .navbar-nav .nav-link{
+    text-align: center;
+  }
+  
+  .header .container-fluid::after {
+    display: none;
+  }
+
+  .header .container-fluid {
+    width: 100%;
+    height:35px;
+  }
+
+  .header .container-fluid .navbar-nav .icon i {
+    display: none;
+  }
+
+  .gettaxi {
+    width: 84%;
+    height:40%;
+  }
+
+  .gettaxi .container .box {
+    display: none;
+  }
+
+  .gettaxi .container .contant form .button {
+    margin-left: 10%;
+  }
+
+  .gettaxi .container form input {
+    width: 80%;
+    padding-left: 1rem;
+  }
+
+  section .gettaxi-row {
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+
+  .gettaxi-row .contant .box-row .box {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .services .container {
+    margin: 0 auto;
+  }
+
+  .services .container .card {
+    border: none !important;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .services .container .card-title,
+  .services .container .card-text {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .services .container .card img {
+    margin-right: 25%;
+  }
+
+  .one {
+    /* border: 2px solid black; */
+    height:5px;
+    width: 100vw;
+  
+    background-image: repeating-conic-gradient(
+      white 0deg,
+      white 90deg,
+      #666 91deg,
+      #666 180deg
+    );
+    background-size: 1% 100%;
+  }
+  .tariffs .container .row{
+    margin:0 10%;
+  }
+  .benefits .container .row .col{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .benefits .container .row .col .wrabber{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+  }
+  .benefits .container .row .box{
+    display: none;
+  } 
+
+  .drivers .container{
+    margin-left:10%;
+  }
+
+  .client .container .item{
+    margin: 0 auto;
+    box-shadow: none;
+    height:190px;
+    width: 200px;
+  }   
+  .client .container .item .card .card-body img {
+    padding: 1rem;
+    margin-top:1rem;
+    position: absolute;
+    left: 38%;
+    bottom: -19px;
+  }
+
+  .client .container-fluid img{
+    margin-left:10% ;
+    display: none;
+  }
+
+  .partners .container .box-row .box img{
+    height: 40px;
+    object-fit:cover;
+    width: 40px;
+  }
+
+  .footer .container{
+    margin:auto;
+    padding:0;
+  }
+
+  .footer-black .container{
+    margin-left:2rem;
+  }
+   
+  .footer-black .container img{
+  display: none;
+  }
+}
+
+@media (max-width: 576px) { 
+   .home .container-fluid .carousel-inner {
+     display: none;
+   }
+
+   .home .gettaxi{
+    width:65%;
+    height:45%;
+    position: absolute;
+    left:0;
+    top:18%;
+   }
+
+   .gettaxi .container{
+    margin-left:auto;
+   }
+    
+   section .gettaxi-row {
+    margin-top:125%;
+   }
+   
+   .benefits .row{
+    display: flex;
+    flex-direction: column;
+   }
+
+   .benefits .row .wrabber{
+    margin-left: 10%;
+   }
+
+   .benefits .row{
+    margin-right:10%;
+   }
+}
